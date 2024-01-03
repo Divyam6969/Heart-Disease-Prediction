@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction Result</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            background-size: cover;
+        }
+
+        h1, p {
+            text-align: center;
+            color: white;
+        }
+
+        .info-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heart Disease Prediction Result</h1>
+    <div class="info-container">
+        {% if result == 0 %}
+            <p>
+                Great news! No heart disease has been detected. You're healthy.
+                It's important to maintain a healthy lifestyle with regular exercise,
+                a balanced diet, and regular health check-ups.
+            </p>
+        {% else %}
+            <p>
+                Unfortunately, heart disease has been detected. It's crucial to take
+                precautions and consult with a healthcare professional. Consider making
+                lifestyle changes such as adopting a heart-healthy diet, regular exercise,
+                and managing stress. Early detection and proper management can improve outcomes.
+            </p>
+        {% endif %}
+    </div>
+</body>
+</html>
