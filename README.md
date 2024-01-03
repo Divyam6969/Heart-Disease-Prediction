@@ -78,6 +78,11 @@ cd heart-disease-prediction-app
   <li>Number of Major Vessels Colored by Fluoroscopy (0-3): Indicate the number of major vessels colored by fluoroscopy (0-3).</li>
   <li>Thalassemia: Specify the type of thalassemia.</li>
 </ul>
+ <h2>License</h2>
+
+  <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+
+  <p>Thank you for using our Heart Disease Prediction App! Your feedback and contributions are highly appreciated.</p>
 
   <h2>Contributing</h2>
 
