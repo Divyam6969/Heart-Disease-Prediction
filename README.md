@@ -7,6 +7,24 @@
     Forest Classification model, aims to provide users with accurate predictions regarding the likelihood of heart disease
     based on various health parameters.</p>
 
+-> Entering data
+<br>
+<br>
+<image  width="600px" src="Screenshots/screenshots.png">
+<br>
+
+-> When heart disease not found
+<br>
+<br>
+<image  width="600px" src="Screenshots/screenshots2.png">
+<br>
+
+-> When heart disease is found
+<br>
+<br>
+<image  width="600px" src="Screenshots/screenshots3.png">
+<br>
+
   <h2>Features</h2>
 
   <ul>
@@ -66,11 +84,6 @@ cd heart-disease-prediction-app
   <p>We welcome contributions! Feel free to explore the code, enhance the application, or address issues. Create a pull
     request or open an issue to start a discussion.</p>
 
-  <h2>License</h2>
-
-  <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
-  <p>Thank you for using our Heart Disease Prediction App! Your feedback and contributions are highly appreciated.</p>
 
 </body>
 
