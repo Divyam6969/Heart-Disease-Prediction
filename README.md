@@ -6,6 +6,7 @@
   <p>Welcome to the Heart Disease Prediction App repository! This application, built using Flask and powered by a Random
     Forest Classification model, aims to provide users with accurate predictions regarding the likelihood of heart disease
     based on various health parameters.</p>
+  <p>Dataset for the model is available here https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset</p>
 
 -> Entering data
 <br>
